@@ -11,11 +11,17 @@ const sanggarSchema = new Schema({
         type: String
     },
     alamat: {
-        type: String
+        keterangan: String,
+        lat: Number,
+        long: Number,
     },
     notelp: {
         type: Number
     },
+    gambar: {
+        type: String,
+        default: null
+    }
 })
 
 
